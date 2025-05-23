@@ -1,0 +1,19 @@
+*{
+  background-color: yellow;
+  font-family: sans-serif;
+}
+h1{
+  color: rgb(207, 17, 81);
+}
+ul{
+  list-style-type: square;
+  color: blue;
+}
+p{
+  color: red;
+}
+
+p1{
+font-style: italic;
+color: red; 
+}
