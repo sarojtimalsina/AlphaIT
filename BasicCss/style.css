@@ -1,0 +1,10 @@
+.box{
+background-color: red; 
+color: yellow;
+height: 100px;
+width: 50px;
+border-width: 10px;
+border-color: green;
+border-style: double;
+border: 10px double blue; 
+}
