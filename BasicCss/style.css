@@ -1,10 +1,84 @@
-.box{
-background-color: red; 
-color: yellow;
-height: 100px;
-width: 50px;
-border-width: 10px;
-border-color: green;
-border-style: double;
-border: 10px double blue; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #0f2235;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10%;
+    min-height: calc(100vh - 100px);
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+.hero-text h2{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.hero-text h2 span{
+    color: white;
+    font-weight: 700;
+}
+.hero-text p{
+    margin-bottom: 30px;
+    color: #bbb;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+    color: #0f2235;
+}
+.hero-img img{
+    max-width: 400px;
+    border-radius: 10px;
 }
